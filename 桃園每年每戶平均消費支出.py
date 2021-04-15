@@ -20,6 +20,8 @@ def print_node(node):
        print("node.text:null")
 
 
+print("第二版本修改測試")
+
 try:
     url="https://www.dgbas.gov.tw/public/data/open/localstat/011-%E5%90%84%E7%B8%A3%E5%B8%82%E5%88%A5%E5%B9%B3%E5%9D%87%E6%AF%8F%E6%88%B6%E6%B6%88%E8%B2%BB%E6%94%AF%E5%87%BA.xml"
     req=httplib.Request(url)
